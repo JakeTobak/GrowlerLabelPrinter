@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Growler Tag Printer",
+  "description": "Prints labels for Growler Tags",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}

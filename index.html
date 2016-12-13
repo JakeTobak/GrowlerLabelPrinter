@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beer Label</title> 
+        <script src = "./DYMO.Label.Framework.latest.js" type="text/javascript" charset="UTF-8"> </script>
+        <script src="./PrintLabel.js" type="text/javascript" charset="UTF-8"> </script>
+    </head>
+    <body>
+        <h1>Growler Label Printer</h1> 
+
+        <div id="printerDiv">
+            <label for="printerList">Printer:</label>
+            <select name="printerList" id="printerList"></select>
+        </div>
+
+        <div id="beerIDDiv">
+            <label for="beerIDInput">Beer ID:</label><br>
+            <input type= name="beerIDInput" id="beerIDInput"></textarea>
+        </div>
+
+        <div id="printDiv">
+            <button id="printButton">Print</button>
+        </div>
+
+        <div id="urlDiv">
+        </div>
+        <img id="labelImage"></img>
+        <canvas id="qrCanvas">
+        </canvas>
+
+    </body>
+</html>
